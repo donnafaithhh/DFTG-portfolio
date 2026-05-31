@@ -1,0 +1,246 @@
+/* These are for the general stuff levels */
+h1 {
+  font-family: 'Canva Sans', sans-serif;
+  color: #ca3232;
+  font-size: 50px;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Canva Sans', sans-serif;
+  color: #ca3232;
+  font-size: 35px;
+}
+
+body {
+    margin: 0;
+    padding: 100px;
+}
+
+
+/* These classes are for the landing page greeting card. */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 120px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-image {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.greeting-card {
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #ca3232;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-top: 0;
+}
+
+.welcome-message {
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 10;
+    color: #ca3232;
+    text-align: left;
+    margin: 0.5rem 0;
+    line-height: 1;
+}
+
+
+/* These classes are for the get to know me section. */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 300px;
+}
+
+.about-image {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-description {
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 10;
+    color: #ca3232;
+    text-align: left;
+    margin: 0.5rem 0;
+    line-height: 1.6;    
+}
+
+
+
+/* These are for the academic projects section. */
+.academic-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 300px;
+}
+
+.project-image {
+    width: 10%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project-box {
+    width: 80%;
+    height: auto;
+
+    border: 3px solid #ca3232;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    padding: 0.25rem;
+    text-align: center;
+
+    background: #fff8f8;
+    box-shadow: 6px 6px 0 #ffd6d6;
+    transition: transform 0.2s ease;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.project-text h2 {
+    margin: 0;
+}
+
+.project-text p {
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 10;
+    color: #ca3232;
+    text-align: left;
+    line-height: 1;  
+    margin: 0.5rem 0 0 0;
+}
+
+
+
+/* These are for the professional experiences section. */
+.professional-experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 300px;
+}
+
+
+
+/* These classes are for the technical skills section. */
+.technical-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 300px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.skill-box {
+    width: 500px;
+    height: 500px;
+
+    border: 3px solid #ca3232;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1.5rem;
+    text-align: center;
+
+    background: #fff8f8;
+    box-shadow: 6px 6px 0 #ffd6d6;
+    transition: transform 0.2s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-5px);
+}
+
+
+
+/* These are for the menu at the top. */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+nav a {
+  font-family: 'Canva Sans', sans-serif;
+  color: #ca3232;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
