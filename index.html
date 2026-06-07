@@ -63,74 +63,229 @@
 
         <!-- Academic Projects section -->
         <section class="academic-projects">
-            <h1>Academic Projects⭑.ᐟ</h1>
-            <div class="project-box">
-                <img src="assets/projects_folder.png"
-                    alt="project image" 
-                    class="project-image">
-                <div class="project-text">
-                    <h2>LSTM Neural Network on the S&P 500</h2>
-                    <p>For this project, I created neural network models to 
-                        forecast a year’s worth of stock prices for 100 companies 
-                        on the S&P 500 using daily closing prices with a median 
-                        model performance of an R2 of 0.93.</p>
+            <div class="projects-header">
+                <h1>Academic Projects⭑.ᐟ</h1>
+                <p>
+                    Below are a list of my finance-related projects. Click on them 
+                    to view the source code on GitHub!
+                </p>
+            </div>
+            
+            <a href="https://github.com/donnafaithhh/LSTM-Trading" 
+               class="project-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="project-box">
+                    <img src="assets/projects_folder.png"
+                        alt="project image" 
+                        class="project-image">
+                    <div class="project-text">
+                        <h2>LSTM Neural Network on the S&P 500</h2>
+                        <p>For this project, I created neural network models to 
+                            forecast a year’s worth of stock prices for 100 companies 
+                            on the S&P 500 using daily closing prices with a median 
+                            model performance of an R2 of 0.93.</p>
+                    </div>
                 </div>
+            </a>
+            
+            <a href="https://github.com/donnafaithhh/Binance-For-Beginners" 
+               class="project-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="project-box">
+                    <img src="assets/projects_folder.png"
+                        alt="project image" 
+                        class="project-image">
+                    <div class="project-text">
+                        <h2>Market Microstructure of Crypto Assets</h2>
+                        <p>For this project, I learned about the crypto trading 
+                            industry and used skills for big data to process, analyze, 
+                            and recommend a trading strategy for beginner traders in 
+                            cryptocurrency using the Binance full history dataset.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://github.com/donnafaithhh/Fama-Markowitz-Mini-Project" 
+               class="project-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="project-box">
+                    <img src="assets/projects_folder.png"
+                        alt="project image" 
+                        class="project-image">
+                    <div class="project-text">
+                        <h2>Markowitz vs. Fama-French Three-Factor Portfolios</h2>
+                        <p>For this project, I compared the performance of portfolios 
+                            from principal component analysis, rotationally invariant 
+                            estimator, the Markowitz Portfolio Optimization model, 
+                            and the Fama-French Three-Factor Model to determine which 
+                            one would be best suited for different investor trading 
+                            appetites using their Sharpe ratios.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://github.com/donnafaithhh/GARCH-Trading" 
+               class="project-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="project-box">
+                    <img src="assets/projects_folder.png"
+                        alt="project image" 
+                        class="project-image">
+                    <div class="project-text">
+                        <h2>Trade Forecasting Using Volatility</h2>
+                        <p>For this project, I improved short-horizon trading 
+                            decisions by creating a GARCH volatility forecasting model 
+                            against baseline methods which consistently yielded 
+                            predictive accuracy and more profitable, risk-aware trading 
+                            returns.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://github.com/10meters/Place_holder" 
+               class="project-link"
+               target="_blank"
+               rel="noopener noreferrer">
+                <div class="project-box">
+                    <img src="assets/projects_folder.png"
+                        alt="project image" 
+                        class="project-image">
+                    <div class="project-text">
+                        <h2>StreetSmart</h2>
+                        <p>For this project, my teammates and I developed a website 
+                            that would recommend business locations for Filipino SMEs 
+                            that upholds the Sustainable Cities and Communities 
+                            (SDG 11) which won second place in Hackercup 2025, an 
+                            interuniversity hackathon.</p>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <!-- Professional Experiences section -->
+        <section class="professional-experiences">
+            <div class="experiences-header">
+                <h1>Professional Experiences⭑.ᐟ</h1>
             </div>
 
-            <div class="project-box">
-                <img src="assets/projects_folder.png"
-                    alt="project image" 
-                    class="project-image">
-                <div class="project-text">
-                    <h2>Market Microstructure of Crypto Assets</h2>
-                    <p>For this project, I learned about the crypto trading 
-                        industry and used skills for big data to process, analyze, 
-                        and recommend a trading strategy for beginner traders in 
-                        cryptocurrency using the Binance full history dataset.</p>
-                </div>
-            </div>
+            <div class="experience-scroll-wrapper">
+                <!-- Left arrow -->
+                <button class="scroll-arrow left" id="arrowLeft" aria-label="Scroll left">
+                    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
 
-            <div class="project-box">
-                <img src="assets/projects_folder.png"
-                    alt="project image" 
-                    class="project-image">
-                <div class="project-text">
-                    <h2>Markowitz vs. Fama-French Three-Factor Portfolios</h2>
-                    <p>For this project, I compared the performance of portfolios 
-                        from principal component analysis, rotationally invariant 
-                        estimator, the Markowitz Portfolio Optimization model, 
-                        and the Fama-French Three-Factor Model to determine which 
-                        one would be best suited for different investor trading 
-                        appetites using their Sharpe ratios.</p>
-                </div>
-            </div>
+                <!-- Right arrow -->
+                <button class="scroll-arrow right" id="arrowRight" aria-label="Scroll right">
+                    <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+                </button>
 
-            <div class="project-box">
-                <img src="assets/projects_folder.png"
-                    alt="project image" 
-                    class="project-image">
-                <div class="project-text">
-                    <h2>Trade Forecasting Using Volatility</h2>
-                    <p>For this project, I improved short-horizon trading 
-                        decisions by creating a GARCH volatility forecasting model 
-                        against baseline methods which consistently yielded 
-                        predictive accuracy and more profitable, risk-aware trading 
-                        returns.</p>
-                </div>
-            </div>
+                <div class="experience-container" id="expContainer">
 
-            <div class="project-box">
-                <img src="assets/projects_folder.png"
-                    alt="project image" 
-                    class="project-image">
-                <div class="project-text">
-                    <h2>StreetSmart</h2>
-                    <p>For this project, my teammates and I developed a website 
-                        that would recommend business locations for Filipino SMEs 
-                        that upholds the Sustainable Cities and Communities 
-                        (SDG 11) which won second place in Hackercup 2025, an 
-                        interuniversity hackathon.</p>
+                    <div class="experience-card">
+                        <h2>Corporate Analyst Development Program Intern</h2>
+                        <p class="company">JPMorgan Chase & Co.</p>
+                        <p class="date">June 2026 - Present</p>
+                        <p>
+                            I worked under the Trade & Working Capital department where I learned
+                            more about the operations of J.P. and I picked up and developed skills
+                            that would be valuable as an analyst such as Tableau and Alteryx.
+                        </p>
+                    </div>
+
+                    <div class="experience-card">
+                        <h2>Member</h2>
+                        <p class="company">
+                            AIM Analytics, Computing, and Complex Systems Laboratory
+                        </p>
+                        <p class="date">November 2025 - Present</p>
+                        <p>
+                            As part of the Applied AI in Business subgroup, I am currently writing
+                            academic papers on my research interest, quantitative finance. I
+                            have also contributed to a predictive model for ship building and
+                            learned to handle different file formats.
+                        </p>
+                    </div>
+
+                    <div class="experience-card">
+                        <h2>Risk Management Intern</h2>
+                        <p class="company">China Banking Corporation</p>
+                        <p class="date">November 2025 - January 2026</p>
+                        <p>
+                            During my internship, I learned about the standards of reporting for
+                            financial institutions and created both a feasibility study and a
+                            prototype that integrates AI in creating risk simulations for the
+                            company that increases productivity from 3 days of manual labor to
+                            minutes.
+                        </p>
+                    </div>
+
+                    <div class="experience-card">
+                        <h2>Principles of Microeconomics and Macroeconomics Tutor</h2>
+                        <p class="company">Asian Institute of Management (AIM)</p>
+                        <p class="date">January 2025 - November 2025</p>
+                        <p>
+                            I was appointed as a tutor for succeeding cohorts because of my
+                            academic excellence in these subjects. Here, I reinforced subject
+                            expertise while supporting student learning by simplifying complex
+                            concepts and strengthening problem-solving skills.
+                        </p>
+                    </div>
+
+                    <div class="experience-card">
+                        <h2>Digital Marketing and Outreach Intern</h2>
+                        <p class="company">Galamad Aerospace</p>
+                        <p class="date">June 2024 - August 2024</p>
+                        <p>
+                            As an intern, I contacted over 120 venture capital companies and
+                            started partnership discussions for Galamad. I also connected with
+                            existing departments to organize an online competition to increase
+                            brand awareness.
+                        </p>
+                    </div>
                 </div>
+
+                <script>
+                    const container = document.getElementById('expContainer');
+                    const arrowLeft = document.getElementById('arrowLeft');
+                    const arrowRight = document.getElementById('arrowRight');
+
+                    // Clone cards for infinite loop
+                    const originalCards = Array.from(container.children);
+                    originalCards.forEach(card => {
+                        const clone = card.cloneNode(true);
+                        clone.setAttribute('aria-hidden', 'true');
+                        container.appendChild(clone);
+                    });
+
+                    // Card width + gap
+                    const cardWidth = 400 + 32; // flex: 0 0 400px + gap: 2rem (32px)
+
+                    // Total width of the original set
+                    const originalSetWidth = originalCards.length * cardWidth;
+
+                    // Smooth scroll by one card
+                    function scrollByCard(direction) {
+                        container.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+                    }
+
+                    // After smooth scroll settles, silently reset if past the original set
+                    container.addEventListener('scroll', () => {
+                        if (container.scrollLeft >= originalSetWidth) {
+                            container.scrollLeft -= originalSetWidth;
+                        }
+                        if (container.scrollLeft < 0) {
+                            container.scrollLeft += originalSetWidth;
+                        }
+                    });
+
+                    arrowLeft.addEventListener('click', () => scrollByCard(-1));
+                    arrowRight.addEventListener('click', () => scrollByCard(1));
+                </script>
+
             </div>
         </section>
 
