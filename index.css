@@ -336,47 +336,96 @@ body {
 
 
 
-/* These classes are for the technical skills section. */
-.technical-skills {
+/* These are for the Let's work together section. */
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 300px;
+    padding-bottom: 80px;
+}
+
+.contact-squiggle {
+    width: 120px;
+    height: 6px;
+    border-radius: 99px;
+    background: #ffd6d6;
+}
+
+.contact-me h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.contact-sub {
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 10;
+    color: #ca3232;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    line-height: 1;
+}
+
+.contact-tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.contact-tile {
+    width: 130px;
+    height: 130px;
+
+    border: 3px solid #ca3232;
+    border-radius: 20px;
+
+    background: #fff8f8;
+    box-shadow: 5px 5px 0 #ffd6d6;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    padding-top: 300px;
-}
+    gap: 10px;
 
-.skills-container {
-    display: flex;
-    gap: 2rem;
-}
-
-.skill-box {
-    width: 500px;
-    height: 500px;
-
-    border: 3px solid #ca3232;
-    border-radius: 15px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    padding: 1.5rem;
-    text-align: center;
-
-    background: #fff8f8;
-    box-shadow: 6px 6px 0 #ffd6d6;
+    text-decoration: none;
     transition: transform 0.2s ease;
 }
 
-.skill-box:hover {
+.contact-tile:hover {
     transform: translateY(-5px);
+}
+
+.contact-tile img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.contact-tile-label {
+    font-family: 'Canva Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ca3232;
+    letter-spacing: 0.03em;
+}
+
+.contact-deco {
+    font-size: 28px;
+    letter-spacing: 6px;
+    color: #ffd6d6;
+    margin: 0.5rem 0 0;
 }
 
 
 
-/* These are for the menu at the top. */
+/* These are for the menu bar at the top. */
 header {
   position: fixed;
   top: 0;
